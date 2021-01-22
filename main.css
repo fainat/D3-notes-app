@@ -1,0 +1,80 @@
+body {
+    font-family: "Roboto Light", sans-serif;
+}
+.notes {
+    margin: 10px;
+    padding: 5px 5px 100px;
+}
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: lightslategray;
+}
+.list {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    margin: 40px 0;
+    padding: 20px;
+}
+.list p {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    margin: 40px 0;
+    padding: 20px;
+    font-size: 1.1em;
+}
+.hide {
+    display: none;
+}
+.type-archive {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+    margin: 40px 0;
+    padding: 20px;
+    color: white;
+    background-color: #3d3d3d;
+}
+#new-note {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 4px solid #575757;
+    border-radius: 15px;
+    padding: 10px;
+}
+.form-group {
+    margin-left: 15px;
+}
+.form-group button {
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 20px;
+    outline: none;
+}
+.form-group button:hover {
+    outline: dashed rgb(255, 196, 246);
+}
+#new-note input {
+    padding: 6px 16px;
+    width: 50%;
+    height: 35px;
+    font-size: .9em;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+#new-note input:hover {
+    outline: dashed rgb(196, 220, 255);
+}
+.form-group button:active {
+    outline: dashed rgb(196, 223, 255);
+}
